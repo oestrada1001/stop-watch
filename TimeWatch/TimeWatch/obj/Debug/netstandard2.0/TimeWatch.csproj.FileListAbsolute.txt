@@ -1,0 +1,14 @@
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/bin/Debug/netstandard2.0/TimeWatch.deps.json
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/bin/Debug/netstandard2.0/TimeWatch.dll
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/bin/Debug/netstandard2.0/TimeWatch.pdb
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.csproj.AssemblyReference.cache
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.AssemblyInfoInputs.cache
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.AssemblyInfo.cs
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.csproj.CoreCompileInputs.cache
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.dll
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.pdb
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/ClockPage.xaml.g.cs

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZupCij15FBTRKWScgUDIwdUbdkFiWWJyToC6reBlB2uJ3AkyNWC1pcY7I4WySAr5a7Hpo+oGuecaCM1zGiv/6g==",
+  "success": true,
+  "projectFilePath": "/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch.iOS/TimeWatch.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/oestrada/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/oestrada/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/oestrada/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

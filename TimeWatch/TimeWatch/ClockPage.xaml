@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeWatch.ClockPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Label
+                x:Name="Countdown"
+                FontSize="70"
+                AbsoluteLayout.LayoutBounds="0.5, .30"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Text="01:25"/>
+
+            <!--<Button CornerRadius="35"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    AbsoluteLayout.LayoutBounds="0.20, .65, 70, 70"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Text="Back"/>
+                    -->
+            
+            <Button
+                BackgroundColor="Black"
+                TextColor="White"
+                AbsoluteLayout.LayoutBounds="0.5, .65, 100, 100"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="50"
+                Clicked="Play_Button_OnClicked"
+                x:Name="StartButton"
+                Text="Play"/>
+
+            <!--<Button
+                BackgroundColor="Black"
+                TextColor="White"
+                AbsoluteLayout.LayoutBounds="0.80, .65, 70, 70"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="35"
+                Text="Next"/>
+                -->
+            
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
