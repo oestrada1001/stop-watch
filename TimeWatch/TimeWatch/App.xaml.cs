@@ -13,7 +13,7 @@ namespace TimeWatch
             InitializeComponent();
 
             //MainPage = new ClockPage();
-            MainPage = new PresentPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
