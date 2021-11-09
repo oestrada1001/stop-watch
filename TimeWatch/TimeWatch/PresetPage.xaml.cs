@@ -44,12 +44,12 @@ namespace TimeWatch
         }
 
 
-        private void PresetList_OnItemTapped(object sender, ItemTappedEventArgs e)
+        private async void PresetList_OnItemTapped(object sender, ItemTappedEventArgs e)
         {
             var preset = e.Item as Preset;
-            PresetList.SelectedItem = null;
-            DisplayAlert("Selected", preset.Name, "OK");
+            await Navigation.PushAsync(new ClockPage(preset));
             
+            PresetList.SelectedItem = null;
         }
     }
 }

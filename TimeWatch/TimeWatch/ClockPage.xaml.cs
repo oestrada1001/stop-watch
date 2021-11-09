@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
+using TimeWatch.Models;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -17,7 +18,7 @@ namespace TimeWatch
     {
         private TimeSpan _defaultTime = new TimeSpan(0, 0, 5);
         private Boolean _running = false;
-        public ClockPage()
+        public ClockPage(Preset preset)
         {
             InitializeComponent();
 
