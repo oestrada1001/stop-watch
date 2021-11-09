@@ -12,3 +12,4 @@
 /Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.dll
 /Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/TimeWatch.pdb
 /Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/ClockPage.xaml.g.cs
+/Users/oestrada/dev/TimeWatch/TimeWatch/TimeWatch/obj/Debug/netstandard2.0/PresetPage.xaml.g.cs
