@@ -9,9 +9,14 @@
                 x:Name="Countdown"
                 FontSize="70"
                 AbsoluteLayout.LayoutBounds="0.5, .30"
-                AbsoluteLayout.LayoutFlags="PositionProportional"
-                Text="01:25"/>
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
+            <Label 
+                x:Name="PresetName"
+                FontSize="32"
+                AbsoluteLayout.LayoutBounds="0.5, .45"
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            
             <!--<Button CornerRadius="35"
                     BackgroundColor="Black"
                     TextColor="White"
@@ -27,8 +32,7 @@
                 AbsoluteLayout.LayoutFlags="PositionProportional"
                 CornerRadius="50"
                 Clicked="Play_Button_OnClicked"
-                x:Name="StartButton"
-                Text="Play"/>
+                x:Name="StartButton"/>
 
             <!--<Button
                 BackgroundColor="Black"

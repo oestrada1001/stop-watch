@@ -16,23 +16,26 @@ namespace TimeWatch
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ClockPage : ContentPage
     {
-        private TimeSpan _defaultTime = new TimeSpan(0, 0, 5);
+        private TimeSpan _defaultTime;
         private Boolean _running = false;
         public ClockPage(Preset preset)
         {
             InitializeComponent();
-
+            _defaultTime = new TimeSpan(0, 0, (int)preset.Work);
+            Countdown.Text = $"{_defaultTime:mm\\:ss}";
+            PresetName.Text = preset.Name;
+            StartButton.Text = "Start";
         }
 
         private void CheckTimer()
         {
-            Countdown.Text = _defaultTime.ToString();
+            Countdown.Text = $"{_defaultTime:mm\\:ss}";
             Device.StartTimer(new TimeSpan(0, 0, 1), () =>
             {
                 Device.BeginInvokeOnMainThread(() =>
                 {
                     _defaultTime = _defaultTime - new TimeSpan(0, 0, 1);
-                    Countdown.Text = _defaultTime.ToString();
+                    Countdown.Text = $"{_defaultTime:mm\\:ss}";
                     
                 });
                 return _running;

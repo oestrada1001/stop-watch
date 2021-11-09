@@ -21,7 +21,7 @@ namespace TimeWatch
                 new Preset
                 {
                     Name = "[20/10X8+60]6",
-                    Work = 30,
+                    Work = 20,
                     Rest = 10,
                     Reps = 8,
                     Recovery = 60
@@ -29,14 +29,15 @@ namespace TimeWatch
                 new Preset
                 {
                     Name = "[4/1]4",
-                    Work = 240,
+                    Work = 60,
                     Rest = 60,
                     Reps = 4
                 },
                 new Preset
                 {
                     Name = "[EMOTM]",
-                    Work = 1200,
+                    Work = 60,
+                    Reps = 15,
                 },
             };
 
